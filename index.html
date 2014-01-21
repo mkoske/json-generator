@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <title>JSON generaattori</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="iso-8859-1" />
+    <link rel="stylesheet" type="text/css" href="./styles.css" media="screen" />
+</head>
+<body>
+    <div id="header">
+        <h1>JSON-generaattori</h1>
+    </div>
+    <div id="help">
+        <h2>Ohje</h2>
+        <ul>
+            <li>Kysymys-vastaus-pareina: ensiksi kysymysteksti, sitten vastausvaihtoehdot <em>seuraavalle</em> riville</li>
+            <li>Vaihtoehdot erotetaan toisistaan ns. putkimerkillä</li>
+            <li>Jätä jokaisen kysmys-vastaus-parin väliin tyhjä rivi. Tämä ei ole pakollista, mutta selkeyden vuoksi on hyvä tehdä näin.</li>
+        </ul>
+    </div>
+    <div id="generator">
+    </div>
+    <div id="result-wrapper">
+        <h2>JSON-data</h2>
+        <div id="result">
+        </div>
+    </div>
+    <script type="text/javascript" src="./generator.js"></script>
+</body>
+</html>
