@@ -9,3 +9,6 @@ JSON-generaattori sähköistä tehtävälomaketta varten. Generaattorin tarkoitu
 - Syötä kysymys-vastaus-data tekstikenttään ja klikkaa "Luo JSON"
 - Kopioi tekstikentän alta luotu JSON-data tehtävälomakkeen tietovarastoon
 
+## Lisensi
+
+JSON Generaattori on lisensoitu MIT-lisenssillä. Katso [LICENCE](https://github.com/Tampereen-kaupunginkirjasto/JSONGenerator/blob/master/LICENSE "MIT-Lisenssi")-tiedostosta lisätiedot.
