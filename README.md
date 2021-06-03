@@ -1,14 +1,28 @@
-# JSONGenerator
+# json-generator
 
-JSON-generaattori sähköistä tehtävälomaketta varten. Generaattorin tarkoituksena on vähentää kysymys-vastaus-datan ylläpitoa luomalla syötetystä datasta JSON-objekteja.
+A JSON data generator for questionaire form.
 
-## Käyttöohje
+This is a simple web application made using HTML, vanilla JavaScript and CSS.
 
-- Lataa [generaattori](https://github.com/Tampereen-kaupunginkirjasto/JSONGenerator/archive/master.zip "Generaattori") ja pura lataamasi ZIP-paketti
-- Avaa puretusta paketista index.html-tiedosto selaimessa
-- Syötä kysymys-vastaus-data tekstikenttään ja klikkaa "Luo JSON"
-- Kopioi tekstikentän alta luotu JSON-data tehtävälomakkeen tietovarastoon
+It is used to ease writing question-answer pairs for questionaire form.
 
-## Lisensi
+To use it, you have two options (at least).
 
-JSON Generaattori on lisensoitu MIT-lisenssillä. Katso [LICENCE](https://github.com/Tampereen-kaupunginkirjasto/JSONGenerator/blob/master/LICENSE "MIT-Lisenssi")-tiedostosta lisätiedot.
+## Option 1: Manual
+
+- Download the ZIP file and extract its contents
+- Then place app files to some web server and access index.html via browser
+
+## Option 2: Docker
+
+The project contains a Dockerfile which does everytging for you already.
+
+Just run `docker run -d -p 80:80 mkoske/json-generator` and you're done.
+
+Then access the project via browser.
+
+## License
+
+MIT
+
+
